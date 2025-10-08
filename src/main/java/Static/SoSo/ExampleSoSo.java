@@ -23,8 +23,8 @@ public class ExampleSoSo {
     public ExampleSoSo(int radius) {
         howManyObjects++; // does work because howManyObjects is static
         objectReferences.add(this); // does work because objectReferences is static
-        radius = radius; // actually wrong, very odd!
-        //this.radius = radius;
+        //radius = radius; // actually wrong, very odd!
+        this.radius = radius;
     }
 
     public static int getHowManyObjects() {
@@ -48,6 +48,7 @@ public class ExampleSoSo {
 
     public static void main(String[] args) {
         System.out.println("Initial howManyObjects: " + getHowManyObjects());
+
         ExampleSoSo obj1 = new ExampleSoSo(111);
         obj1.printRadius();
         obj1.calculateArea();

@@ -22,6 +22,7 @@ public class ExampleBetter {
     public ExampleBetter(int radius) {
         ExampleBetter.howManyObjects++;
         ExampleBetter.objectReferences.add(this);
+        //radius = radius;
         this.radius = radius;
     }
 
