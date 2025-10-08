@@ -1,4 +1,4 @@
-package NewSwing.Swing04;
+package NewSwing.Swing04.SimpleExample;
 
 import javax.swing.SwingUtilities;
 

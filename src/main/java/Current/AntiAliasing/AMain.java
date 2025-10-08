@@ -1,9 +1,9 @@
-package Current.Graphics2D;
+package Current.AntiAliasing;
 
 
 import javax.swing.JFrame;
 
-public class Graphics2D{
+public class AMain {
 	private static final long serialVersionUID = -5061537296046948508L;
 	
 	public static void main(String[] args) {

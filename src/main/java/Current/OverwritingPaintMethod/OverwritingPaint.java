@@ -35,8 +35,4 @@ public class OverwritingPaint extends Frame{
 		for (int i=0;i<100;i=i+4)
 			g.drawOval(260+i, 160, 100, 100);		
 	}
-	
-	public static void main(String[] args) {
-		new OverwritingPaint().setVisible(true);
-	}
 }

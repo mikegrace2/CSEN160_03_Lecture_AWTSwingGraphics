@@ -1,4 +1,4 @@
-package NewSwing.Swing04;
+package NewSwing.Swing04.SimpleExample;
 
 import java.awt.BorderLayout;
 import java.awt.Button;

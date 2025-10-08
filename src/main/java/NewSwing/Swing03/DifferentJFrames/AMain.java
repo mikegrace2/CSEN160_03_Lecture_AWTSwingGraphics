@@ -1,4 +1,4 @@
-package NewSwing.Swing03;
+package NewSwing.Swing03.DifferentJFrames;
 
 import javax.swing.SwingUtilities;
 

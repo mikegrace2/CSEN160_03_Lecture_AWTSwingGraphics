@@ -1,4 +1,4 @@
-package NewSwing.Swing02;
+package NewSwing.Swing02.DIfferentStartup;
 
 import javax.swing.JFrame;
 

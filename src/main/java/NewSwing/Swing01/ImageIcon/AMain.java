@@ -1,4 +1,4 @@
-package NewSwing.Swing01;
+package NewSwing.Swing01.ImageIcon;
 
 import java.awt.Color;
 
