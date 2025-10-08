@@ -21,8 +21,10 @@ public class MyFrame extends JFrame implements KeyListener{
 		this.setSize(500, 500);	
 		this.addKeyListener(this);
 		this.setVisible(true);
-		
-		ImageIcon icon=new ImageIcon("rocket_ship_alpha.png");
+
+        // IntelliJ IDEA: src/main/resources/rocket_ship_alpha.png
+        ImageIcon icon = new ImageIcon(getClass().getResource("/rocket_ship_alpha.png"));
+		//ImageIcon icon=new ImageIcon("rocket_ship_alpha.png");
 		this.label=new JLabel();
 		this.label.setIcon(icon);
 		this.label.setBounds(0,0,100,100);
