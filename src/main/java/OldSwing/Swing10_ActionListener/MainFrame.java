@@ -51,5 +51,6 @@ public class MainFrame implements ActionListener{
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		System.out.println(this.textField.getText());
+        this.textField.setText("Hello "+this.textField.getText());
 	}
 }

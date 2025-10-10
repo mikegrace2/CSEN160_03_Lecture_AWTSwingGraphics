@@ -11,8 +11,9 @@ public class AMain {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setSize(400, 500);
 		frame.setVisible(true);
-		
-		ImageIcon image=new ImageIcon(AMain.class.getResource("/Icon.jpg"));
+
+        ImageIcon image=new ImageIcon(AMain.class.getResource("/Icon.jpg"));
+		//ImageIcon image=new ImageIcon("/Icon.jpg");
 		frame.setIconImage(image.getImage());
 		frame.getContentPane().setBackground(Color.GREEN);
 		frame.getContentPane().setBackground(new Color(0,255,0));

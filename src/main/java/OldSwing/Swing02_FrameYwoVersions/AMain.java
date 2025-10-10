@@ -12,10 +12,11 @@ public class AMain {
 				@Override
 				public void run() {
 					// negative: myFrameOne gives access to the JFrame details to everyone which is too much and not needed!
-					JFrameOne myFrameOne = new JFrameOne(); 
+					JFrameOne myFrameOne = new JFrameOne();
+                    //myFrameOne.
 					
 					// positive: myJFrameTwo only has some members showing to everyone
-					JFrameTwo myJFrameTwo = new JFrameTwo(); 
+					JFrameTwo myJFrameTwo = new JFrameTwo();
 					myJFrameTwo.show();
 				}
 		});

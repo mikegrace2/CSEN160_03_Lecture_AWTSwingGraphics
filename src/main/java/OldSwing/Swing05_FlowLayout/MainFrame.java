@@ -25,9 +25,9 @@ public class MainFrame {
 			JButton temp = new JButton("Button"+i);
 			this.panel.add(temp);
 		}
-		
-		
-		this.frame.add(this.panel, BorderLayout.NORTH);
+
+        this.frame.add(this.panel);
+		//this.frame.add(this.panel, BorderLayout.NORTH);
 	}
 	
 	public void show() {
