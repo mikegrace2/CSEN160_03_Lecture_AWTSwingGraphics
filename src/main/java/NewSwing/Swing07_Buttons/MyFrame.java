@@ -20,7 +20,6 @@ public class MyFrame extends JFrame implements ActionListener{
 		//this.setLayout(null); // no layout manager
 		this.setSize(500, 500);
 			
-		this.button.addComponentListener(null);
 		this.button = new JButton("Click me!!!!");
 		this.button.setBounds(200, 100, 100, 50);
 		this.button.setFocusable(true);
