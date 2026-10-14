@@ -21,7 +21,7 @@ public class DrawingCanvas extends JComponent{
 				RenderingHints.KEY_ANTIALIASING,
 				RenderingHints.VALUE_ANTIALIAS_OFF
 				);
-		g2d.setRenderingHints(rh);
+		//g2d.setRenderingHints(rh);
 		
 		Rectangle2D.Double r = new Rectangle2D.Double(0,0,400,400);
 		g2d.setColor(Color.BLUE);
