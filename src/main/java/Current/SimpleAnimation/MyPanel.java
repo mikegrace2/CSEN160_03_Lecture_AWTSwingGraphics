@@ -27,9 +27,9 @@ public class MyPanel extends JPanel implements ActionListener {
 	public MyPanel() {
 		this.setPreferredSize(new Dimension (this.PANEL_WIDTH, this.PANEL_HEIGHT));
 		this.setBackground(Color.WHITE);
-		//this.enemy = new ImageIcon("SpaceInvader.jpg").getImage();
-		this.enemy = new ImageIcon("space_invader_64x64.jpg").getImage();
-		this.background=new ImageIcon("Background.jpg").getImage();
+		this.enemy = new ImageIcon(getClass().getClassLoader().getResource("SpaceInvader.jpg")).getImage();
+		this.enemy = new ImageIcon(getClass().getClassLoader().getResource("space_invader_64x64.jpg")).getImage();
+		this.background = new ImageIcon(getClass().getClassLoader().getResource("Background.jpg")).getImage();
 		this.timer = new Timer(1, this);
 		this.timer.start();
 	}

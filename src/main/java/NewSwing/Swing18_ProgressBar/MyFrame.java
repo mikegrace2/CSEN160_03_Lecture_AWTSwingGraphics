@@ -20,7 +20,7 @@ public class MyFrame extends JFrame{
 
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLayout(new FlowLayout());
-		this.setSize(500, 500);				
+		this.setSize(800, 800);
 		this.setVisible(true);
 		
 		this.progress=new JProgressBar();
@@ -30,7 +30,7 @@ public class MyFrame extends JFrame{
 		this.progress.setValue(0);
 		this.add(progress);
 		
-		this.pack();
+		//this.pack();
 		
 		this.fill();
 		this.progress.setString("Done");

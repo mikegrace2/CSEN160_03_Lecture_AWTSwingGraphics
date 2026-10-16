@@ -15,7 +15,7 @@ public class MyFrame extends JFrame implements ActionListener{
 
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//this.setLayout(new GridLayout());
-		this.setLayout(new GridLayout(3,3,10,10));// 3 rows and 3 columns, horizontal margins and vertical margins
+		this.setLayout(new GridLayout(3,3,20,10));// 3 rows and 3 columns, horizontal margins and vertical margins
 		this.setSize(500, 500);		
 		
 		// Create 10 buttons
