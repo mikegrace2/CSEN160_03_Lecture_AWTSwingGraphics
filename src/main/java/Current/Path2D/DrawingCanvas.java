@@ -14,7 +14,7 @@ import javax.swing.JComponent;
 
 public class DrawingCanvas extends JComponent{
 	private static final long serialVersionUID = 8484012127228034166L;
-		
+	@Override
 	protected void paintComponent(Graphics g) {
 		Graphics2D g2d = (Graphics2D)g;
 		
